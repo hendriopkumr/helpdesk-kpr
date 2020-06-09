@@ -235,7 +235,7 @@ header {
 .video-clip li {
   display: inline-block;
   padding: 25px 35px;
-  margin-left: -30px;
+  margin-left: -50px;
 }
 
 .video-clip li iframe {
