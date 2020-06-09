@@ -196,7 +196,7 @@ header {
 
 .message:active {
   position: relative;
-  top: 7px;
+  top: 5px;
   box-shadow: none;
 }
 
@@ -224,10 +224,18 @@ header {
   text-align: center;
 }
 
+.video-wrapper {
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+
+
 
 .video-clip li {
   display: inline-block;
-  padding: 20px 25px;
+  padding: 25px 35px;
+  margin-left: -30px;
 }
 
 .video-clip li iframe {
@@ -238,8 +246,21 @@ header {
 }
 
 .text-video {
-  text-align: center;
   color: #5f5d60;
+  font-weight: normal;
+  padding-top: 80px;
+}
+
+
+.videolainnya {
+  background-color: #5dca88;
+  box-shadow: 0 7px #1a7940;
+}
+
+.videolainnya:active{
+  position: relative;
+  top: 5px;
+  box-shadow: none;
 }
 
 
@@ -255,6 +276,7 @@ footer p {
 }
 
 footer {
+  text-align: center;
   padding-top: 30px;
   padding-bottom: 20px;
   border-top: 1px solid #eee;
