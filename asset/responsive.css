@@ -85,6 +85,10 @@
 	.video-wrapper {
 		text-align: center;
 	}
+	
+	footer p {
+		font-size: 9px;
+	}
 
 
 }
