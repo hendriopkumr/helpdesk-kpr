@@ -15,10 +15,21 @@
 		font-size: 20px;
 	}
 
-	.video-gallery {
+	.video-wrapper {
 		text-align: center;
 	}
 
+
+	.search-container input {
+		padding: 7px;
+		padding-right: 70px;
+		font-size: 12px;
+	}
+
+	.search-container button {
+		padding: 6px 10px;
+		font-size: 13px;
+	}
 
 }
 
@@ -28,6 +39,7 @@
 @media all and (max-width: 670px) {
 	.lesson {
 		width: 100%;
+
 	}
 
 	footer {
@@ -50,11 +62,13 @@
 	.top-wrapper h1 {
 		font-size: 24px;
 		line-height: 36px;
+		text-align: center;
 	}
 
 	.top-wrapper p {
 		font-size: 14px;
 		line-height: 20px;
+		text-align: center;
 	}
 
 	.header-right a {
@@ -67,7 +81,11 @@
 		display: block;
 	}
 
-	.video-gallery {
+	.header-right a {
+		display: none;
+	}
+
+	.video-wrapper {
 		text-align: center;
 	}
 }
